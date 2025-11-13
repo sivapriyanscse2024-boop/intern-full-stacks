@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="demo"></p>
+<body>
+    <script>
+        let a=prompt("Enter a number:");
+        a=Number(a);
+        let b=prompt("Enter another number:");
+        b=Number(b);
+        let c=prompt("Enter third number:");
+        c=Number(c);
+        if(a>=b && a>=c){
+            document.getElementById("demo").innerHTML="The largest number is: "+a;
+        } else if(b>=a && b>=c){
+            document.getElementById("demo").innerHTML="The largest number is: "+b;
+        } else {
+            document.getElementById("demo").innerHTML="The largest number is: "+c;
+        }
+
+    </script>
+    
+</body>
+</html>
